@@ -1,8 +1,9 @@
 import 'package:flutter/material.dart';
+import 'package:i_love_movies/pages/home.dart';
 import 'package:i_love_movies/widgets/logo_appbar.dart';
 
-class Watchlist extends StatelessWidget {
-  const Watchlist({super.key});
+class SearchPage extends StatelessWidget {
+  const SearchPage({super.key});
 
   @override
   Widget build(BuildContext context) {

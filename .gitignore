@@ -43,3 +43,19 @@ app.*.map.json
 /android/app/debug
 /android/app/profile
 /android/app/release
+
+# Operating system specific directories (Often regenerated and large)
+/android/
+/ios/
+/windows/
+/linux/
+/macos/
+/web/
+
+# Development tool and build directories
+/.dart_tool/
+/build/
+
+# IDE specific files
+/.idea/
+/i_love_movies.iml

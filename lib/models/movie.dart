@@ -1,17 +1,30 @@
+import 'package:i_love_movies/models/actor.dart';
+
 class Movie {
   String? title;
   String? director;
-  var actors = <String>{};
-  int? rating;
+  double? rating;
   int? year;
-  String? genre;
+  List<String>? genre;
+  String? story;
+  List<Actor>? actors;
+  List<String>? photoUrls;
+  String? posterUrl;
+  String? bannerUrl;
 
-  Movie(String title,String director, var actors, int rating, int year,String genre){
-    this.title =title; 
-    this.actors = actors;
-    this.rating = rating;
-    this.year = year; 
-    this.genre = genre;
-  }
+
+
+  Movie({
+    required this.title,
+    required this.director,
+    required this.rating,
+    required this.year,
+    required this.genre,
+    required this.story,
+    required this.actors,
+    required this.photoUrls,
+    required this.bannerUrl,
+    required this.posterUrl,
+  });
 
 }
